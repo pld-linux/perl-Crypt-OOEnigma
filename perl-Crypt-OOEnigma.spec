@@ -1,10 +1,14 @@
+#
+# Conditional build:
+# _without_tests - do not perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Crypt
 %define		pnam	OOEnigma
 Summary:	Crypt::OOEnigma Perl module - flexible interface to Enigma
 Summary(pl):	Modu³ Perla Crypt::OOEnigma - elastyczny interfejs do Enigmy
 Name:		perl-Crypt-OOEnigma
-Version:	0.1
+Version:	0.3
 Release:	1
 License:	Artistic or GPL
 Group:		Development/Languages/Perl
@@ -40,7 +44,7 @@ w³asnej Enigmy z szyframi z IIW¦.
 %build
 perl Makefile.PL
 %{__make}
-%{__make} test
+%{!?_without_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
