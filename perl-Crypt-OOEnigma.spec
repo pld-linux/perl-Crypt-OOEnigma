@@ -44,7 +44,7 @@ w³asnej Enigmy z szyframi z IIW¦.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 %{!?_without_tests:%{__make} test}
 
