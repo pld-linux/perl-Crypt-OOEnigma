@@ -9,17 +9,15 @@ Summary:	Crypt::OOEnigma Perl module - flexible interface to Enigma
 Summary(pl):	Modu³ Perla Crypt::OOEnigma - elastyczny interfejs do Enigmy
 Name:		perl-Crypt-OOEnigma
 Version:	0.3
-Release:	3
+Release:	4
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	e8c14d05b89a30574d1a5d6cea239cde
 BuildRequires:	perl-devel >= 1:5.8.0
-BuildRequires:	perl-Storable >= 0.6.1.11
 BuildRequires:	perl-Test-Simple >= 0.41
 BuildRequires:	rpm-perlprov >= 4.1-13
-Requires:	perl-Storable >= 0.6.1.11
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
