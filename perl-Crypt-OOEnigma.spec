@@ -3,8 +3,8 @@
 %bcond_without	tests	# Do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Crypt
-%define	pnam	OOEnigma
+%define		pdir	Crypt
+%define		pnam	OOEnigma
 Summary:	Crypt::OOEnigma Perl module - flexible interface to Enigma
 Summary(pl):	Modu³ Perla Crypt::OOEnigma - elastyczny interfejs do Enigmy
 Name:		perl-Crypt-OOEnigma
