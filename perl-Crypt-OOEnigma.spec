@@ -9,14 +9,14 @@ Summary:	Crypt::OOEnigma Perl module - flexible interface to Enigma
 Summary(pl):	Modu³ Perla Crypt::OOEnigma - elastyczny interfejs do Enigmy
 Name:		perl-Crypt-OOEnigma
 Version:	0.3
-Release:	1
+Release:	2
 License:	Artistic or GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 BuildRequires:	perl >= 5.6
 BuildRequires:	perl-Storable >= 0.6.1.11
 BuildRequires:	perl-Test-Simple >= 0.41
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.1-13
 Requires:	perl-Storable >= 0.6.1.11
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -42,7 +42,8 @@ w³asnej Enigmy z szyframi z IIW¦.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor 
 %{__make}
 %{!?_without_tests:%{__make} test}
 
@@ -61,7 +62,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README
-%{perl_sitelib}/Crypt/OOEnigma.pm
-%{perl_sitelib}/Crypt/OOEnigma
+%{perl_vendorlib}/Crypt/OOEnigma.pm
+%{perl_vendorlib}/Crypt/OOEnigma
 %{_mandir}/man3/*
 %{_examplesdir}/%{name}-%{version}
