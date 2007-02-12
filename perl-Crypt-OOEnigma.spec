@@ -6,7 +6,7 @@
 %define		pdir	Crypt
 %define		pnam	OOEnigma
 Summary:	Crypt::OOEnigma Perl module - flexible interface to Enigma
-Summary(pl):	Modu³ Perla Crypt::OOEnigma - elastyczny interfejs do Enigmy
+Summary(pl.UTF-8):   ModuÅ‚ Perla Crypt::OOEnigma - elastyczny interfejs do Enigmy
 Name:		perl-Crypt-OOEnigma
 Version:	0.3
 Release:	4
@@ -29,14 +29,14 @@ ciphers in each component etc. Those who wish to explore an Enigma
 with historically accurate ciphers should try Crypt::Enigma or use
 this module to create their own Enigma with WWII ciphers.
 
-%description -l pl
-Modu³ Crypt::OOEnigma jest elastycznym, zorientowanym obiektowo
-interfejsem do maszyny Enigma z II Wojny ¦wiatowej. Pozwala u¿ywaæ i
-modyfikowaæ komercyjne i militarne wersje Enigmy. Mo¿na ³atwo
-skonstruowaæ w³asn± z dowoln± liczb± bêbnów, w³asnymi szyframi dla
-ka¿dego komponentu itp. Chc±cy u¿ywaæ Enigmy z historycznymi szyframi
-powinni u¿yæ modu³u Crypt::Enigma lub u¿yæ tego modu³u do stworzenia
-w³asnej Enigmy z szyframi z IIW¦.
+%description -l pl.UTF-8
+ModuÅ‚ Crypt::OOEnigma jest elastycznym, zorientowanym obiektowo
+interfejsem do maszyny Enigma z II Wojny Åšwiatowej. Pozwala uÅ¼ywaÄ‡ i
+modyfikowaÄ‡ komercyjne i militarne wersje Enigmy. MoÅ¼na Å‚atwo
+skonstruowaÄ‡ wÅ‚asnÄ… z dowolnÄ… liczbÄ… bÄ™bnÃ³w, wÅ‚asnymi szyframi dla
+kaÅ¼dego komponentu itp. ChcÄ…cy uÅ¼ywaÄ‡ Enigmy z historycznymi szyframi
+powinni uÅ¼yÄ‡ moduÅ‚u Crypt::Enigma lub uÅ¼yÄ‡ tego moduÅ‚u do stworzenia
+wÅ‚asnej Enigmy z szyframi z IIWÅš.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
