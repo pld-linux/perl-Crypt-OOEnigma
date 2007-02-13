@@ -6,7 +6,7 @@
 %define		pdir	Crypt
 %define		pnam	OOEnigma
 Summary:	Crypt::OOEnigma Perl module - flexible interface to Enigma
-Summary(pl.UTF-8):   Moduł Perla Crypt::OOEnigma - elastyczny interfejs do Enigmy
+Summary(pl.UTF-8):	Moduł Perla Crypt::OOEnigma - elastyczny interfejs do Enigmy
 Name:		perl-Crypt-OOEnigma
 Version:	0.3
 Release:	4
