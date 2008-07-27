@@ -9,7 +9,7 @@ Summary:	Crypt::OOEnigma Perl module - flexible interface to Enigma
 Summary(pl.UTF-8):	Moduł Perla Crypt::OOEnigma - elastyczny interfejs do Enigmy
 Name:		perl-Crypt-OOEnigma
 Version:	0.3
-Release:	4
+Release:	5
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
