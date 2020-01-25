@@ -4,7 +4,6 @@
 
 %define		pdir	Crypt
 %define		pnam	OOEnigma
-%include	/usr/lib/rpm/macros.perl
 Summary:	Crypt::OOEnigma Perl module - flexible interface to Enigma
 Summary(pl.UTF-8):	Moduł Perla Crypt::OOEnigma - elastyczny interfejs do Enigmy
 Name:		perl-Crypt-OOEnigma
